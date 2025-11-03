@@ -1,0 +1,23 @@
+# Node
+node_modules/
+frontend/node_modules/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Models & artifacts
+backend/model/spam_model.h5
+backend/model/tokenizer.pkl
+backend/model/checkpoints/
+
+# Build outputs
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
