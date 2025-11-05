@@ -1,0 +1,19 @@
+# Credentials and tokens
+credentials.json
+token.pickle
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+backend.venv/
+
+# Model artifacts
+model/*.pkl
+model/*.joblib
+model/*.bin
+model/*.json
