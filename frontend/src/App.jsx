@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import EmailForm from './components/EmailForm.jsx'
 import ResultCard from './components/ResultCard.jsx'
+import Chatbot from './components/Chatbot.jsx'
 
 export default function App() {
   const [result, setResult] = useState(null)
@@ -25,6 +26,9 @@ export default function App() {
       <footer className="text-center text-sm text-gray-500 mt-10">
         FastAPI backend at <code>http://localhost:8000</code>
       </footer>
+
+      {/* Floating Chatbot Assistant */}
+      <Chatbot />
     </div>
   )
 }
